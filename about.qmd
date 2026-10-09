@@ -18,7 +18,7 @@ toc: false
 
 Tuliskan tujuan belajar pribadi Anda untuk semester ini.
 
-> Ganti teks ini dengan pernyataan singkat tentang kompetensi komunikasi yang ingin Anda bangun dan alasan mengapa kompetensi tersebut penting.
+>Saya ingin berkomunikasi.
 
 ## Aturan evidence
 
