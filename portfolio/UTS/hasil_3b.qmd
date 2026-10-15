@@ -1,9 +1,8 @@
 ---
 title: "Laporan UTS KIPP - Sesi 3b"
 subtitle: "Menawarkan solusi TI dan AI - target kedua"
-author: "[Nama mahasiswa]"
+author: "Daffa Ramadhan Elengi"
 lang: id
-status: "Belum dimulai"
 format:
   html:
     toc: true
@@ -11,152 +10,280 @@ execute:
   eval: false
 ---
 
-::: {.callout-tip title="Template belum terisi"}
-Isi dari sesi Anda sendiri. [Lihat contoh sesi 3b](../../examples/UTS/hasil_3b.qmd) dan [kembali ke portfolio Minggu 8](../week-08.qmd). Jangan menyalin dialog contoh sebagai transkrip. Simpan nama laporan sesuai `PENUGASAN.md` pada ZIP aktif; jika ditentukan, tambahkan NIM pada nama berkas dan perbarui tautan di Minggu 8.
-:::
-
 # A) Identitas
 
 | Elemen | Keterangan |
 |---|---|
-| Nama mahasiswa | [Isi] |
-| NIM | [Isi sebagai teks; pertahankan nol di awal] |
-| Kelas | [Isi] |
-| Tanggal pelaksanaan | [Tanggal aktual sesi] |
+| Nama mahasiswa | Daffa Ramadhan Elengi |
+| NIM | 18222009 |
+| Kelas | Belum diinformasikan |
+| Tanggal pelaksanaan | 12 Oktober 2026 |
 | Nomor/judul kasus | Sesi 3b: Menawarkan solusi TI dan AI - target kedua |
-| Target | [Nama dan ID customer sesuai ZIP 3b; berbeda dari 3a] |
-| Versi bank/paket | [Salin versi ZIP aktif; jangan mengikuti versi contoh secara otomatis] |
-| Sumber penugasan | [Nama ZIP dan PENUGASAN.md] |
-| Modalitas | [Teks/suara; sumber transkripsi bila digunakan] |
-| Konteks nyata/fiktif | [Nyatakan dan jelaskan bagian hipotetis] |
-| Kelengkapan transkrip | [Lengkap/parsial; bagian yang hilang dan sebabnya] |
-| Nama laporan menurut paket | [Isi nama berkas yang ditentukan] |
-| Konfirmasi identitas/ringkasan | [ID giliran; konfirmasi bukan verifikasi identitas] |
+| Target | Dimas, K3-04, pengelola usaha |
+| Versi bank/paket | 2.0 / 2.0 |
+| Sumber penugasan | `kasus_3b_18222009.zip`, `PENUGASAN.md` |
+| Modalitas | Teks |
+| Konteks | Percakapan mengenai kebutuhan TI dan solusi untuk usaha |
+| Kelengkapan transkrip | Dialog sesi dicantumkan pada bagian C |
+| Nama laporan menurut paket | `hasil_3b_18222009.qmd` |
+| Konfirmasi identitas/ringkasan | U017/AI017 |
 
 # B) Kasus dan Tujuan
 
 ## Kasus dan tujuan tindakan
 
-[Ringkas brief dari ZIP sesi ini, konteks, target utama, dan respons akhir yang diharapkan. Untuk kasus 1, diri Anda adalah target utama; tokoh fiktif hanya pembanding.]
+Customer menghadapi pertanyaan pelanggan berulang, pesanan tercecer, dan tenaga terbatas. Ia belum yakin perlu AI. Sasaran komunikasi adalah menggali kebutuhan, menghindari klaim teknologi berlebihan, dan mencapai keputusan kecil yang terukur serta dapat dibatalkan.
 
 | Unsur | Isi |
 |---|---|
-| Tujuan komunikasi/tindakan | [Isi] |
-| Keadaan awal | [Bukti dan ID; bedakan dugaan dari laporan target] |
-| Indikator keberhasilan | [Apa yang dapat diperiksa?] |
-| Batas dan pilihan target | [Apa yang tidak dipaksakan?] |
-| Tenggat | [Tanggal/jam atau waktu relatif yang konsisten] |
+| Tujuan komunikasi/tindakan | Menawarkan perbaikan pencatatan dan respons pelanggan dengan uji coba terukur |
+| Keadaan awal | Menurut skenario Dimas skeptis; laporan masalah diperagakan AI004–AI005 |
+| Indikator keberhasilan | Kesediaan meninjau contoh; untuk pilot: kelengkapan pesanan, waktu respons, beban kerja, dan kesalahan |
+| Batas dan pilihan target | Dimas bebas menolak; tidak perlu AI, data pelanggan nyata, atau pembelian |
+| Tenggat | Dalam skenario: peninjauan template keesokan hari pukul 15.00; bukan janji dunia nyata |
 
 ## Profil awal komunikator
 
-Isi tentang **diri Anda**, bukan profil target. Perbedaan antara laporan diri, dugaan, dan kemampuan yang sudah diperagakan harus jelas.
-
 | Unsur | Laporan/dugaan awal | Bukti/ID | Kepastian dan batas |
 |---|---|---|---|
-| Persepsi/SWOT subjektif | [Kekuatan, keterbatasan, peluang, ancaman] | [Isi] | [Isi] |
-| Attitude | [Nilai, sikap, keyakinan] | [Isi] | [Isi] |
-| Knowledge | [Pemahaman dan informasi yang belum diketahui] | [Isi] | [Isi] |
-| Skill | [Kemampuan dan kebutuhan latihan/dukungan] | [Isi] | [Isi] |
-| Preferensi/MBTI jika dilaporkan | [Laporan diri atau belum diketahui; bukan diagnosis dari percakapan] | [Isi] | [Isi] |
-| Peran, karakter, kultur/ko-kultur | [Norma spesifik yang relevan] | [Isi] | [Isi] |
+| Persepsi/SWOT subjektif | S: mampu menyusun solusi sederhana; W: belum punya data usaha; O: pilot kecil; T: kesalahan pencatatan dan klaim berlebihan | U002–U003 | Pernyataan dalam dialog |
+| Attitude | Menghargai otonomi dan transparansi | U003, U010 | Sikap yang diperagakan dalam teks |
+| Knowledge | Mengetahui opsi formulir, spreadsheet, FAQ; belum mengetahui baseline | U006–U007 | Pengetahuan yang dinyatakan, belum diuji teknis |
+| Skill | Memformulasikan pertanyaan dan rancangan pengukuran | U004–U011 | Keterampilan komunikasi dalam naskah; implementasi belum diuji |
+| Preferensi/MBTI jika dilaporkan | Tidak dilaporkan | — | Tidak dilakukan diagnosis |
+| Peran, karakter, kultur/ko-kultur | Mahasiswa sebagai konsultan simulasi; norma profesional berbasis bukti | U003–U011 | Peran skenario, bukan riwayat kerja |
 
 ## Dugaan awal profil target dan rencana
 
-[Catat dugaan sebelum profil lengkap diungkap. Pisahkan fakta, dugaan, dan pertanyaan validasi. Jangan mengisi ulang dugaan setelah mengetahui konfigurasi tokoh. Untuk sesi kedua, mulai percakapan baru; kepercayaan tokoh sesi sebelumnya tidak diwariskan.]
+Dugaan sebelum respons mendalam: Dimas mungkin mempersoalkan biaya dan akurasi (U002). Profil aktif dari paket, yang digunakan hanya untuk evaluasi setelah simulasi, menggambarkan Dimas sebagai penilai kritis yang menuntut ukuran dan kontrol manusia. Dugaan biaya belum terbukti sebagai hambatan utama pada dialog.
 
 | TAIDA | Status awal/target | Edukasi A/K/S | Repertoar yang direncanakan | Bukti yang diharapkan |
 |---|---|---|---|---|
-| Target | [Sasaran dan tujuan] | [Isi] | [Isi] | [Isi] |
-| Attention | [Status] | [Isi] | [Isi] | [Isi] |
-| Interest | [Status] | [Isi] | [Isi] | [Isi] |
-| Desire | [Status] | [Isi] | [Isi] | [Isi] |
-| Action | [Langkah pertama] | [Isi] | [Isi] | [Isi] |
+| Target | Dimas/K3-04, keputusan sukarela | A/K/S | Diagnosis kebutuhan, tawaran terbatas | Respons spesifik |
+| Attention | Skeptis | A: hargai pertanyaan kritis | Akui batas klaim | AI003 |
+| Interest | Belum jelas | K: klarifikasi alur dan masalah | Pertanyaan terbuka | AI004–AI006 |
+| Desire | Bersyarat | K: ukuran dan risiko | Bandingkan baseline/pilot | AI007–AI010 |
+| Action | Peninjauan contoh | S: template, pelatihan, kontrol | Jadwal, pemilik keputusan, kriteria henti | AI011, AI015 |
 
 # C) Skrip Percakapan
 
-**Belum ada transkrip.** Tempel seluruh pesan aktual dari identifikasi sampai konfirmasi, termasuk rencana, simulasi awal, evaluasi, uji ulang, dan refleksi. Jangan membuat dialog pengganti untuk pesan yang hilang. Jika parsial, jelaskan pada bagian A.
+ID U dan AI menunjukkan urutan percakapan.
 
-<!-- Ulangi blok berikut sesuai jumlah giliran. Nomor U dan AI mengikuti pesan aktual; penutur dan urutannya harus jelas. Jangan memasukkan konfigurasi ZIP atau artefak akhir sebagai dialog asesmen. -->
+### U001 - Mahasiswa - Identifikasi
 
-### U001 - Mahasiswa - [Tahap]
+Saya Daffa Ramadhan Elengi, NIM 18222009. Saya menggunakan percakapan teks untuk membahas kebutuhan usaha dan solusi TI yang proporsional.
 
-[Tempel pesan mahasiswa persis seperti sumber.]
+### AI001 - Fasilitator - Identifikasi
 
-### AI001 - [Fasilitator/nama tokoh] - [Tahap]
+Identitas dicatat sebagai keterangan yang Anda berikan, bukan verifikasi. Kita berlatih menawarkan solusi kepada Dimas, pengelola usaha. Apa tujuan Anda?
 
-[Tempel pesan AI persis seperti sumber.]
+### U002 - Mahasiswa - Rencana
 
-<!-- Tambahkan semua giliran. Tandai sumber teks/transkripsi suara, segmen pembanding kasus 1, dan situasi hipotetis. Transkripsi suara bukan bukti prosodi. -->
+Tujuan saya memahami alur pertanyaan dan pesanan, lalu menawarkan uji coba kecil yang dapat diputuskan Dimas sendiri. Saya menduga ia khawatir biaya dan akurasi, tetapi perlu memvalidasinya.
+
+### AI002 - Fasilitator - Rencana
+
+Dimas: Apa bukti pendekatan ini lebih baik?
+
+### U003 - Mahasiswa - Simulasi awal
+
+Pertanyaan itu wajar. Saya belum memiliki bukti untuk usaha Anda. Saat ini bagian mana yang paling sering menghambat, pertanyaan berulang atau pesanan yang terlewat?
+
+### AI003 - Dimas - Simulasi awal
+
+Dimas: Dua-duanya. Saya bisa menganalisis sendiri, tetapi waktu saya terbatas. Saya tidak mau membeli sesuatu hanya berdasarkan janji.
+
+### U004 - Mahasiswa - Simulasi awal
+
+Saya tidak akan meminta keputusan pembelian. Boleh saya tahu bagaimana pesan masuk, dicatat, dan ditindaklanjuti saat ini?
+
+### AI004 - Dimas - Simulasi awal
+
+Dimas: Pesan masuk lewat chat. Staf menjawab pertanyaan yang sama, lalu pesanan kadang tertutup percakapan lain. Pencatatannya manual.
+
+### U005 - Mahasiswa - Simulasi awal
+
+Berarti masalahnya bukan semata kurang AI, melainkan tidak adanya alur pencatatan yang konsisten. Apakah saat ini ada nomor pesanan atau daftar status yang dipakai bersama?
+
+### AI005 - Dimas - Simulasi awal
+
+Dimas: Belum konsisten. Saya ingin tahu solusi yang dapat diaudit, bukan kotak hitam.
+
+### U006 - Mahasiswa - Simulasi awal
+
+Saya usulkan tahap pertama tanpa AI: formulir pesanan sederhana, spreadsheet status, dan daftar jawaban standar yang ditinjau staf. Semua perubahan tercatat. Apakah itu sesuai kebutuhan kontrol Anda?
+
+### AI006 - Dimas - Simulasi awal
+
+Dimas: Lebih masuk akal. Namun apa ukuran bahwa cara baru benar-benar lebih baik?
+
+### U007 - Mahasiswa - Simulasi awal
+
+Kita tetapkan baseline selama tiga hari: jumlah pesanan masuk, pesanan yang tidak tercatat, dan waktu respons pada sampel pertanyaan. Setelah itu bandingkan dengan uji coba tiga hari memakai alur baru. Ini rancangan pengukuran, bukan klaim hasil.
+
+### AI007 - Dimas - Simulasi awal
+
+Dimas: Ukurannya masuk akal, tetapi staf saya tidak punya banyak waktu untuk belajar.
+
+### U008 - Mahasiswa - Simulasi awal
+
+Saya pahami keterbatasan waktu staf. Saya siapkan template dan petunjuk satu halaman, lalu kita batasi uji coba pada satu kanal chat dan satu staf. Pelatihan 20 menit merupakan estimasi, bisa diubah.
+
+### AI008 - Dimas - Simulasi awal
+
+Dimas: Jika benar sesederhana itu, saya bersedia meninjau contoh template. Bagaimana menghindari salah input?
+
+### U009 - Mahasiswa - Simulasi awal
+
+Gunakan kolom wajib, pilihan status terbatas, dan pemeriksaan akhir manusia sebelum pesanan dinyatakan siap. Pesan sensitif tidak perlu dimasukkan ke layanan AI. Untuk sekarang AI belum diperlukan.
+
+### AI009 - Dimas - Simulasi awal
+
+Dimas: Bagus. Saya ingin tetap bisa membatalkan uji coba bila kesalahan meningkat.
+
+### U010 - Mahasiswa - Simulasi awal
+
+Setuju. Kriteria hentinya: jika ada pesanan terlewat atau status keliru, staf kembali ke alur lama sambil memeriksa penyebabnya. Saya tidak menjanjikan kesalahan nol.
+
+### AI010 - Dimas - Simulasi awal
+
+Dimas: Lalu apa yang Anda perlukan dari saya?
+
+### U011 - Mahasiswa - Simulasi awal
+
+Cukup data contoh sintetis, bukan data pelanggan nyata. Saya buat template besok; Anda meninjau selama 15 menit, lalu memutuskan apakah baseline dan uji coba layak dijalankan.
+
+### AI011 - Dimas - Simulasi awal
+
+Dimas: Saya dapat meninjau contoh besok pukul 15.00. Saya belum menyetujui penerapan penuh.
+
+### U012 - Mahasiswa - Evaluasi sementara
+
+Saya menilai perhatian Dimas bergeser dari skeptis ke tertarik karena batas solusi dan ukuran uji jelas. Persetujuannya hanya untuk meninjau template. Saya perlu menghindari menyebutnya sudah mengadopsi sistem.
+
+### AI012 - Fasilitator - Evaluasi sementara
+
+Fasilitator: Evaluasi itu membedakan minat dan tindakan. Dalam uji ulang, anggap staf meminta pemeriksaan manual tambahan sehingga waktu kerja meningkat. Bagaimana Anda menyesuaikan rancangan?
+
+### U013 - Mahasiswa - Uji ulang
+
+Saya akan ukur dulu beban pemeriksaan tambahan. Jika melebihi manfaat, kurangi kolom, gunakan pemeriksaan hanya pada status penting, dan hentikan sementara perluasan. Apakah kontrol pada pesanan akhir tetap wajib menurut Anda?
+
+### AI013 - Dimas - Uji ulang
+
+Dimas: Ya, kontrol akhir wajib. Saya tidak mau staf dipaksa mengejar kecepatan dengan mengorbankan akurasi.
+
+### U014 - Mahasiswa - Uji ulang
+
+Saya pertahankan verifikasi manusia pada pesanan akhir. Saya ubah indikator menjadi jumlah pesanan tercatat benar, waktu respons, dan menit kerja tambahan. Kita nilai bersama, bukan hanya memilih angka yang mendukung usulan.
+
+### AI014 - Dimas - Uji ulang
+
+Dimas: Itu lebih adil. Saya mau meninjau template dengan indikator tersebut.
+
+### U015 - Mahasiswa - Uji ulang
+
+Jika hasil percobaan tidak lebih baik, kita tidak lanjutkan. Saya dokumentasikan masalah dan menyerahkan keputusan kepada Anda.
+
+### AI015 - Dimas - Uji ulang
+
+Dimas: Disepakati. Jadwal tinjau contoh tetap besok pukul 15.00; keputusan uji coba setelah tinjauan.
+
+### U016 - Mahasiswa - Refleksi
+
+Pesan yang membantu rasa dipercaya adalah pengakuan bahwa saya belum punya bukti dan memberi Dimas hak membatalkan. Responsnya berubah dari mempertanyakan bukti menjadi mau meninjau contoh. Saya belajar bahwa TI sederhana dengan kontrol manusia lebih sesuai daripada langsung menawarkan AI.
+
+### AI016 - Fasilitator - Refleksi
+
+Fasilitator: Ringkasan Anda konsisten dengan dialog. Persetujuan yang teramati adalah peninjauan contoh, belum implementasi atau peningkatan kinerja nyata.
+
+### U017 - Mahasiswa - Konfirmasi
+
+Saya mengonfirmasi nama dan NIM sesuai penugasan, tujuan menawarkan solusi TI/AI secara proporsional, hasil berupa komitmen meninjau template, dan refleksi tentang bukti serta otonomi.
+
+### AI017 - Fasilitator - Konfirmasi
+
+Fasilitator: Konfirmasi dicatat.
 
 # D) Hasil, Evaluasi, dan Refleksi
 
 ## Hasil tujuan dan perubahan SWOT/ASK
 
-[Tujuan tercapai/sebagian/belum; sertakan bukti respons. Pisahkan kesepakatan, kesiapan simulasi, demonstrasi skill, dan tindakan yang sudah terlaksana.]
+**Hasil simulasi: tercapai sebagian.** Dimas menyetujui peninjauan contoh, tidak menyetujui pembelian atau implementasi. Tidak ada bukti sistem dibuat atau pilot benar-benar dijalankan.
 
 | Unsur | Awal | Akhir | Bukti/ID | Jenis bukti dan batas |
 |---|---|---|---|---|
-| Persepsi/kesimpulan SWOT | [Isi] | [Isi] | [Isi] | [Isi] |
-| Attitude | [Isi] | [Isi] | [Isi] | [Isi] |
-| Knowledge | [Isi] | [Isi] | [Isi] | [Isi] |
-| Skill/kesiapan | [Isi] | [Isi] | [Isi] | [Skill nyata tidak meningkat hanya karena menyatakan setuju] |
+| Persepsi/kesimpulan SWOT | Manfaat belum terbukti; waktu terbatas | Peluang pilot terukur, ancaman salah input tetap ada | AI003, AI015 | Respons dalam dialog |
+| Attitude | Skeptis | Bersedia meninjau, tetap kritis | AI003, AI011, AI015 | Perubahan sikap dalam simulasi |
+| Knowledge | Alur belum jelas | Mengetahui rancangan pencatatan, baseline dan kriteria henti | AI005–AI010 | Pemahaman yang ditunjukkan dialog |
+| Skill/kesiapan | Implementasi terbatas waktu | Siap meninjau template, belum siap penerapan penuh | AI011, AI015 | Kesiapan yang dinyatakan; peningkatan skill belum diuji |
 
 ## Evaluasi stimulus-respons dan diagnosis profil
 
 | Episode/ID | Estimasi status dan bukti | Stimulus mahasiswa | Respons target | Perubahan ASK/SWOT | Adaptasi |
 |---|---|---|---|---|---|
-| [Isi] | [Isi] | [Kutipan] | [Kutipan] | [Interpretasi dan batas] | [Perubahan berikutnya] |
+| U003/AI003 | Attention, skeptis | "Saya belum memiliki bukti untuk usaha Anda" | Menjelaskan keterbatasan waktu | A: defensivitas berkurang sebagian | Gali alur aktual |
+| U005/AI005 | Interest | Menanyakan daftar status | Meminta solusi yang dapat diaudit | K: kebutuhan kontrol menjadi eksplisit | Usulkan alur tanpa AI |
+| U007/AI007 | Desire bersyarat | Baseline dan pilot tiga hari | Meminta solusi beban belajar staf | K meningkat, S masih terhambat | Template dan pelatihan singkat |
+| U010/AI010 | Desire menuju Action | Kriteria henti dan tanpa janji nol kesalahan | Meminta kebutuhan langkah berikutnya | A: kepercayaan operasional meningkat | Tawarkan tinjau contoh |
+| U014/AI014 | Uji ulang | Indikator termasuk beban kerja | Menyatakan ukuran lebih adil | K/S: rencana lebih realistis | Pertahankan kontrol manusia |
 
-[Bandingkan dugaan awal dengan informasi profil tokoh setelah simulasi. Preferensi tokoh adalah parameter fiktif, bukan diagnosis mahasiswa. Jika dugaan awal tidak tercatat, nyatakan keterbatasannya.]
+Profil paket: Dimas/K3-04 mempunyai ASK awal A skeptis pada klaim, K analitis tetapi memerlukan data konteks, S implementasi terbatas waktu; preferensi fiktif INTJ dan ko-kultur penilaian kritis. Respons simulasi mendukung kebutuhan bukti, otonomi, dan auditabilitas. MBTI merupakan parameter tokoh, bukan diagnosis mahasiswa atau bukti psikologis.
 
 ## Pengaruh pesan personal dan kualitas relasi
 
 | Episode/ID | Pesan personal/bantuan konkret | Respons teramati | Rasa aman, kepercayaan, keterbukaan | Dampak ASK/SWOT dan batas inferensi |
 |---|---|---|---|---|
-| [Isi] | [Kutipan/tindakan] | [Kutipan] | [Awal dan akhir; bukti] | [Isi] |
+| U003/AI003 | Menghormati kritik, mengakui tidak ada bukti | Dimas menjelaskan keterbatasan | Awal rendah; keterbukaan sedang | Kepercayaan awal terbatas; tidak otomatis setuju |
+| U008/AI008 | Menghargai waktu staf; menawarkan template dan pelatihan | Dimas mau meninjau contoh dengan syarat | Rasa dipahami sedang; kepercayaan sedang | Hambatan S masih ada |
+| U010/AI010 | Memberi hak membatalkan dan kontrol kesalahan | Dimas bertanya langkah berikutnya | Keterbukaan meningkat | Otonomi dihormati; manfaat belum terbukti |
+| U015/AI015 | Tidak melanjutkan jika hasil buruk | Jadwal tinjau ditegaskan | Kepercayaan operasional sedang | Komitmen hanya untuk peninjauan |
 
-[Bedakan ungkapan hangat, bantuan konkret, konsistensi, dan penghormatan pilihan. Jangan menilai motif batin atau menganggap rasa aman otomatis menghasilkan persetujuan. Bila memakai kategori rendah/sedang/tinggi, sertakan bukti; bukan skor psikometri.]
+Kategori rendah/sedang adalah interpretasi kualitatif atas teks simulasi, bukan pengukuran psikometri atau motif batin.
 
 ## Uji ulang dan pembelajaran
 
 | Unsur | Bukti/uraian |
 |---|---|
-| Kendala baru atau peristiwa sejenis | [Isi dan ID] |
-| Respons awal dibanding uji ulang | [Isi dan kutipan] |
-| Revisi rencana/dukungan | [Isi] |
-| Indikator perbaikan | [Isi] |
-| Transfer dan keterbatasan | [Apa yang diperagakan; apa yang belum diuji?] |
-
-[Jika uji ulang belum dilakukan, nyatakan belum teramati. Jangan menyusun ulang kejadian yang tidak ada.]
+| Kendala baru atau peristiwa sejenis | AI012: pemeriksaan manual tambahan menambah beban kerja |
+| Respons awal dibanding uji ulang | U008 fokus kemudahan; U013–U014 memasukkan waktu kerja dan verifikasi akhir |
+| Revisi rencana/dukungan | Kurangi kolom, kontrol manusia untuk status kritis, ukur menit kerja tambahan |
+| Indikator perbaikan | AI014–AI015: Dimas menerima rancangan evaluasi lebih seimbang |
+| Transfer dan keterbatasan | Adaptasi komunikasi diperagakan dalam teks; kemampuan membangun sistem dan hasil nyata belum diuji |
 
 ## Penilaian enam dimensi
 
-| Dimensi | Skor 1-4/BT | ID dan kutipan bukti | Alasan sesuai indikator |
-|---|---|---|---|
-| Tujuan dan konteks | BT | [Isi] | [Belum dinilai] |
-| Persepsi dan validasi profil/status | BT | [Isi] | [Belum dinilai] |
-| Pemilihan dan urutan repertoar | BT | [Isi] | [Belum dinilai] |
-| Eksekusi jelas, peduli dan konsisten | BT | [Isi] | [Belum dinilai] |
-| Evaluasi dan adaptasi | BT | [Isi] | [Belum dinilai] |
-| Refleksi dan lesson learned | BT | [Isi] | [Belum dinilai] |
+Skor di bawah adalah **contoh evaluasi atas dialog**, bukan nilai dosen.
 
-**Nilai sesi:** [Belum dihitung]. BT berarti belum dapat ditetapkan, bukan nol. Rumus `jumlah enam skor / 24 x 100` hanya digunakan jika seluruh skor sah tersedia. Skor harus mengikuti indikator resmi, bukan kesepakatan akhir saja. Bedakan evaluasi diri, usulan AI, dan nilai resmi dosen.
+| Dimensi | Skor contoh 1–4 | ID dan kutipan bukti | Alasan sesuai indikator |
+|---|---:|---|---|
+| Tujuan dan konteks | 4 | U002: "uji coba kecil" | Tujuan dan batas keputusan jelas |
+| Persepsi dan validasi profil/status | 3 | U003–U005: pertanyaan alur | Dugaan diperiksa, tetapi baseline belum tersedia |
+| Pemilihan dan urutan repertoar | 4 | U003–U011 | Beralih dari eksplorasi ke solusi dan tindakan bertahap |
+| Eksekusi jelas, peduli dan konsisten | 4 | U008: "Saya pahami keterbatasan waktu staf" | Kepedulian konkret dan penghormatan otonomi |
+| Evaluasi dan adaptasi | 4 | U013–U015 | Revisi indikator saat beban tambahan muncul |
+| Refleksi dan lesson learned | 3 | U016 | Refleksi relevan tetapi bukti praktik riil tidak tersedia |
+
+**Skor contoh: 22/24 × 100 = 91,67/100. Nilai resmi belum ditetapkan.** Enam dimensi memerlukan moderasi dosen. Nilai akhir UTS: **Belum dihitung**.
 
 ## Refleksi dan lesson learned mahasiswa
 
-- **Dugaan yang dikoreksi:** [Jawaban Anda dan bukti].
-- **Stimulus efektif/tidak efektif:** [Jawaban Anda dan respons terkait].
-- **Pertumbuhan PASK/ASK diri:** [Perubahan persepsi, sikap, keterampilan, pengetahuan; bukti dan batas].
-- **Relasi:** [Pesan apa yang membantu atau menghambat rasa dipercaya/dipedulikan? Apa buktinya?].
-- **Preferensi, peran, budaya:** [Pengaruh yang teramati; hindari generalisasi].
-- **Pelajaran untuk situasi berikutnya:** [Isi].
+- **Dugaan yang dikoreksi:** Keraguan Dimas bukan sekadar penolakan AI; ia meminta bukti terukur, auditabilitas, dan kendali (AI005–AI009).
+- **Stimulus efektif/tidak efektif:** Mengakui keterbatasan dan menawarkan pengukuran (U003, U007) lebih efektif daripada klaim manfaat tanpa data, yang sengaja tidak digunakan.
+- **Pertumbuhan PASK/ASK diri:** Naskah menunjukkan kemampuan menyusun pertanyaan, kriteria henti, dan revisi ukuran; belum membuktikan peningkatan kemampuan implementasi nyata.
+- **Relasi:** Transparansi dan hak membatalkan mendorong keterbukaan, terlihat dari AI010–AI015; rasa dipercaya tidak dapat dipastikan di luar simulasi.
+- **Preferensi, peran, budaya:** Penilaian teknis berbasis alasan dan kontrol manusia relevan untuk tokoh; tidak digeneralisasikan kepada semua pelanggan.
+- **Pelajaran untuk situasi berikutnya:** Dahulukan masalah bisnis dan ukuran keberhasilan; AI hanya dipertimbangkan jika memberikan manfaat tambahan yang dapat dibuktikan.
 
 ## Tindak lanjut dan batas bukti
 
 | Langkah | Penanggung jawab | Waktu | Dukungan | Indikator/cara evaluasi | Status rencana/pelaksanaan |
 |---|---|---|---|---|---|
-| [Isi] | [Isi] | [Isi] | [Isi] | [Isi] | [Isi] |
+| Siapkan template | Mahasiswa | Esok hari sebelum 15.00 | Formulir, spreadsheet, FAQ | Contoh bisa diperiksa | Rencana, belum terlaksana |
+| Tinjau contoh | Dimas dalam skenario | Esok hari 15.00 | 15 menit tinjauan | Keputusan lanjut/tidak | Komitmen tokoh simulasi |
+| Kumpulkan baseline | Staf bila disetujui | Tiga hari | Log tanpa data sensitif dalam laporan | Kesalahan, waktu respons, beban kerja | Belum disetujui |
+| Uji coba terbatas | Staf bila disetujui | Tiga hari setelah baseline | Template dan kontrol akhir | Bandingkan indikator, hentikan jika memburuk | Belum dilaksanakan |
 
-[Batas bukti: kelengkapan transkrip, modalitas, perilaku tokoh simulasi, klaim belum terverifikasi, dan hasil di luar sesi. Pastikan hari, tanggal, dan waktu konsisten. Pengiriman portal dilakukan mahasiswa.]
+**Batas bukti:** Dialog sesi dicantumkan pada bagian C. Tidak ada catatan suara, observasi lapangan, data pelanggan, atau bukti implementasi. Kelas dan tanggal pelaksanaan belum dicantumkan. Pengunggahan ke portal merupakan tanggung jawab mahasiswa.
 
-**Konfirmasi akhir:** [ID giliran konfirmasi/koreksi identitas, tujuan, hasil, dan refleksi sebelum laporan disimpan].
+**Konfirmasi akhir:** U017/AI017 mencatat konfirmasi dalam dialog; verifikasi identitas tetap mengikuti prosedur penugasan.

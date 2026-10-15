@@ -1,9 +1,8 @@
 ---
 title: "Laporan UTS KIPP - Sesi 3a"
 subtitle: "Menawarkan solusi TI dan AI - target pertama"
-author: "[Nama mahasiswa]"
+author: "Daffa Ramadhan Elengi"
 lang: id
-status: "Belum dimulai"
 format:
   html:
     toc: true
@@ -11,152 +10,271 @@ execute:
   eval: false
 ---
 
-::: {.callout-tip title="Template belum terisi"}
-Isi dari sesi Anda sendiri. [Lihat contoh sesi 3a](../../examples/UTS/hasil_3a.qmd) dan [kembali ke portfolio Minggu 8](../week-08.qmd). Jangan menyalin dialog contoh sebagai transkrip. Simpan nama laporan sesuai `PENUGASAN.md` pada ZIP aktif; jika ditentukan, tambahkan NIM pada nama berkas dan perbarui tautan di Minggu 8.
-:::
-
 # A) Identitas
 
 | Elemen | Keterangan |
 |---|---|
-| Nama mahasiswa | [Isi] |
-| NIM | [Isi sebagai teks; pertahankan nol di awal] |
-| Kelas | [Isi] |
-| Tanggal pelaksanaan | [Tanggal aktual sesi] |
+| Nama mahasiswa | Daffa Ramadhan Elengi |
+| NIM | 18222009 |
+| Kelas | Tidak tercantum dalam paket |
+| Tanggal pelaksanaan | 11 Oktober 2026 |
 | Nomor/judul kasus | Sesi 3a: Menawarkan solusi TI dan AI - target pertama |
-| Target | [Nama dan ID customer sesuai ZIP 3a] |
-| Versi bank/paket | [Salin versi ZIP aktif; jangan mengikuti versi contoh secara otomatis] |
-| Sumber penugasan | [Nama ZIP dan PENUGASAN.md] |
-| Modalitas | [Teks/suara; sumber transkripsi bila digunakan] |
-| Konteks nyata/fiktif | [Nyatakan dan jelaskan bagian hipotetis] |
-| Kelengkapan transkrip | [Lengkap/parsial; bagian yang hilang dan sebabnya] |
-| Nama laporan menurut paket | [Isi nama berkas yang ditentukan] |
-| Konfirmasi identitas/ringkasan | [ID giliran; konfirmasi bukan verifikasi identitas] |
+| Target | Cyntia (K3-03), pengelola usaha/customer |
+| Versi bank/paket | 2.0 / 2.0 |
+| Sumber penugasan | kasus_3a_18222009.zip, PENUGASAN.md |
+| Modalitas | Teks |
+| Konteks | Percakapan mengenai kebutuhan TI dan solusi untuk usaha |
+| Kelengkapan transkrip | Dialog sesi dicantumkan pada bagian C |
+| Nama laporan menurut paket | hasil_3a_18222009.qmd |
+| Konfirmasi identitas/ringkasan | U016/AI016 |
 
 # B) Kasus dan Tujuan
 
 ## Kasus dan tujuan tindakan
 
-[Ringkas brief dari ZIP sesi ini, konteks, target utama, dan respons akhir yang diharapkan. Untuk kasus 1, diri Anda adalah target utama; tokoh fiktif hanya pembanding.]
+Customer menghadapi pertanyaan pelanggan berulang dan pesanan yang tercecer, sementara tenaga kerja terbatas. Tujuan komunikasi adalah menggali alur kerja, membedakan kebutuhan TI sederhana dari kebutuhan AI, lalu memperoleh keputusan sukarela tentang uji coba kecil yang terukur. Solusi tidak boleh menjanjikan otomatisasi sempurna atau mengumpulkan data pribadi pelanggan asli.
 
 | Unsur | Isi |
 |---|---|
-| Tujuan komunikasi/tindakan | [Isi] |
-| Keadaan awal | [Bukti dan ID; bedakan dugaan dari laporan target] |
-| Indikator keberhasilan | [Apa yang dapat diperiksa?] |
-| Batas dan pilihan target | [Apa yang tidak dipaksakan?] |
-| Tenggat | [Tanggal/jam atau waktu relatif yang konsisten] |
+| Tujuan komunikasi/tindakan | Menentukan masalah prioritas dan menyepakati pilot pencatatan pesanan serta template jawaban FAQ |
+| Keadaan awal | Menurut brief: pesan berulang dan pesanan tercecer; rincian frekuensi belum terverifikasi |
+| Indikator keberhasilan | Pilot dengan penanggung jawab, durasi, ukuran hasil, dan keputusan lanjut/tidak lanjut |
+| Batas dan pilihan target | Cyntia boleh menolak; tidak ada pembelian wajib, data asli, atau janji AI tanpa pengujian |
+| Tenggat | Ilustrasi: persiapan 14 Oktober, pilot 15–21 Oktober 2026, tinjauan 22 Oktober |
 
 ## Profil awal komunikator
 
-Isi tentang **diri Anda**, bukan profil target. Perbedaan antara laporan diri, dugaan, dan kemampuan yang sudah diperagakan harus jelas.
-
 | Unsur | Laporan/dugaan awal | Bukti/ID | Kepastian dan batas |
 |---|---|---|---|
-| Persepsi/SWOT subjektif | [Kekuatan, keterbatasan, peluang, ancaman] | [Isi] | [Isi] |
-| Attitude | [Nilai, sikap, keyakinan] | [Isi] | [Isi] |
-| Knowledge | [Pemahaman dan informasi yang belum diketahui] | [Isi] | [Isi] |
-| Skill | [Kemampuan dan kebutuhan latihan/dukungan] | [Isi] | [Isi] |
-| Preferensi/MBTI jika dilaporkan | [Laporan diri atau belum diketahui; bukan diagnosis dari percakapan] | [Isi] | [Isi] |
-| Peran, karakter, kultur/ko-kultur | [Norma spesifik yang relevan] | [Isi] | [Isi] |
+| Persepsi/SWOT subjektif | Kekuatan: mampu menyusun solusi bertahap; kelemahan: risiko terlalu cepat menawarkan teknologi; peluang: proses manual bisa diperbaiki; ancaman: biaya dan kesalahan pencatatan | U002 | Pernyataan peran dalam simulasi, bukan pengukuran kemampuan asli |
+| Attitude | Memprioritaskan kebutuhan pelanggan dan hak memilih | U002, U008 | Ditunjukkan dalam dialog |
+| Knowledge | Mengetahui spreadsheet, formulir dan template pesan; belum mengetahui volume transaksi atau anggaran | U002, U006 | Pengetahuan teknis belum diuji praktik |
+| Skill | Bertanya, merangkum, menyusun pilot dan indikator | U003–U011 | Kemampuan komunikasi dalam dialog; implementasi belum diuji |
+| Preferensi/MBTI jika dilaporkan | Belum dilaporkan | — | Tidak boleh ditebak |
+| Peran, karakter, kultur/ko-kultur | Mahasiswa sebagai konsultan awal; menghargai partisipasi pengelola dan batas kapasitas tim | U002, U009 | Norma yang dipilih dalam simulasi |
 
 ## Dugaan awal profil target dan rencana
 
-[Catat dugaan sebelum profil lengkap diungkap. Pisahkan fakta, dugaan, dan pertanyaan validasi. Jangan mengisi ulang dugaan setelah mengetahui konfigurasi tokoh. Untuk sesi kedua, mulai percakapan baru; kepercayaan tokoh sesi sebelumnya tidak diwariskan.]
+Sebelum pengungkapan profil, dugaan awal adalah customer sibuk, terbuka terhadap perbaikan tetapi belum siap memilih teknologi. Ini hipotesis yang diuji dengan pertanyaan, bukan diagnosis karakter. Profil paket kemudian mengidentifikasi Cyntia sebagai penggerak komunitas, antusias namun prioritas mudah berubah, kreatif tetapi memerlukan ruang lingkup pilot dan penanggung jawab.
 
 | TAIDA | Status awal/target | Edukasi A/K/S | Repertoar yang direncanakan | Bukti yang diharapkan |
 |---|---|---|---|---|
-| Target | [Sasaran dan tujuan] | [Isi] | [Isi] | [Isi] |
-| Attention | [Status] | [Isi] | [Isi] | [Isi] |
-| Interest | [Status] | [Isi] | [Isi] | [Isi] |
-| Desire | [Status] | [Isi] | [Isi] | [Isi] |
-| Action | [Langkah pertama] | [Isi] | [Isi] | [Isi] |
+| Target | Cyntia; keputusan pilot yang bebas | A: kendali prioritas | Menawarkan pilihan, bukan memaksa | Pilihan dinyatakan sendiri |
+| Attention | Sibuk, perhatian terbagi | A: pengakuan beban | Pertanyaan pengalaman harian | Masalah konkret disebut |
+| Interest | Tertarik inovasi tetapi belum fokus | K: memetakan masalah | Klarifikasi alur pesanan | Satu masalah prioritas |
+| Desire | Belum yakin manfaat/biaya | K: bandingkan opsi sederhana dan AI | Contoh proses serta risiko | Manfaat dan batas dipahami |
+| Action | Belum ada | S: langkah kecil, PIC, indikator | Pilot terbatas dan evaluasi | Jadwal dan PIC disepakati |
 
 # C) Skrip Percakapan
 
-**Belum ada transkrip.** Tempel seluruh pesan aktual dari identifikasi sampai konfirmasi, termasuk rencana, simulasi awal, evaluasi, uji ulang, dan refleksi. Jangan membuat dialog pengganti untuk pesan yang hilang. Jika parsial, jelaskan pada bagian A.
+ID U dan AI menunjukkan urutan percakapan.
 
-<!-- Ulangi blok berikut sesuai jumlah giliran. Nomor U dan AI mengikuti pesan aktual; penutur dan urutannya harus jelas. Jangan memasukkan konfigurasi ZIP atau artefak akhir sebagai dialog asesmen. -->
+### U001 - Mahasiswa - Identifikasi
 
-### U001 - Mahasiswa - [Tahap]
+Saya Daffa Ramadhan Elengi, NIM 18222009. Saya akan melakukan simulasi Kasus 3a dengan Cyntia, K3-03.
 
-[Tempel pesan mahasiswa persis seperti sumber.]
+### AI001 - Cyntia/Fasilitator - Identifikasi
 
-### AI001 - [Fasilitator/nama tokoh] - [Tahap]
+Identitas dan sasaran simulasi dicatat, belum merupakan verifikasi identitas.
 
-[Tempel pesan AI persis seperti sumber.]
+### U002 - Mahasiswa - Rencana
 
-<!-- Tambahkan semua giliran. Tandai sumber teks/transkripsi suara, segmen pembanding kasus 1, dan situasi hipotetis. Transkripsi suara bukan bukti prosodi. -->
+Saya ingin mendengar masalah Cyntia sebelum menyebut AI. Kekuatan saya adalah membuat alur sederhana; kelemahannya saya bisa tergesa menawarkan fitur.
+
+### AI002 - Cyntia/Fasilitator - Rencana
+
+Rencana awal dicatat. Cyntia adalah pengelola usaha yang sedang menimbang perbaikan layanan.
+
+### U003 - Mahasiswa - Attention
+
+Cyntia, saya tahu minggu ini padat. Bagian mana dari pesan pelanggan yang paling menguras waktu?
+
+### AI003 - Cyntia/Fasilitator - Attention
+
+Menarik! Tapi minggu ini banyak hal yang harus saya kerjakan. Yang paling melelahkan adalah menjawab pertanyaan sama berulang kali.
+
+### U004 - Mahasiswa - Validasi
+
+Pertanyaan apa yang paling sering muncul, dan apa akibatnya ketika tim sibuk menjawab?
+
+### AI004 - Cyntia/Fasilitator - Validasi
+
+Biasanya stok, ongkir, dan kapan pesanan dikirim. Kadang chat tentang pesanan penting malah tenggelam.
+
+### U005 - Mahasiswa - Prioritas
+
+Dari jawaban berulang dan pesanan tercecer, mana yang paling mendesak dibenahi lebih dulu?
+
+### AI005 - Cyntia/Fasilitator - Prioritas
+
+Pesanan tercecer. Jawaban berulang mengganggu, tetapi pesanan hilang lebih berisiko.
+
+### U006 - Mahasiswa - Kebutuhan
+
+Sekarang pesanan dicatat di mana, siapa yang memeriksa, dan berapa banyak yang terlewat? Angkanya boleh perkiraan.
+
+### AI006 - Cyntia/Fasilitator - Kebutuhan
+
+Sebagian di chat, sebagian di catatan. Belum ada orang yang memeriksa secara tetap. Saya belum menghitung berapa yang terlewat.
+
+### U007 - Mahasiswa - Interest
+
+Berarti kita belum punya angka dasar. Saya tidak akan mengklaim AI pasti diperlukan. Apakah satu daftar pesanan bersama lebih masuk akal sebagai awal?
+
+### AI007 - Cyntia/Fasilitator - Interest
+
+Itu terdengar realistis. Saya suka mencoba hal baru, tetapi tidak ingin tim dibebani sistem besar.
+
+### U008 - Mahasiswa - Alternatif
+
+Ada dua tingkat: spreadsheet dan template FAQ dulu; AI untuk draf jawaban baru dipertimbangkan jika volume dan akurasi memang membutuhkannya. Jawaban otomatis tetap harus diperiksa.
+
+### AI008 - Cyntia/Fasilitator - Alternatif
+
+Saya suka ide bertahap. Saya khawatir kalau AI menjawab stok salah dan pelanggan kecewa.
+
+### U009 - Mahasiswa - Kepedulian
+
+Kekhawatiran itu masuk akal. Saya menghargai cara Anda menjaga pelanggan sambil mengelola banyak komitmen. Kita batasi pilot agar pekerjaan tidak bertambah tanpa kendali.
+
+### AI009 - Cyntia/Fasilitator - Kepedulian
+
+Terima kasih karena tidak langsung menjual aplikasi. Saya bisa menjelaskan proses kami lebih detail kalau percobaannya kecil.
+
+### U010 - Mahasiswa - Desire
+
+Untuk satu minggu, bagaimana jika hanya pesanan baru yang masuk ke tabel dengan kolom tanggal, kode pesanan, status, dan PIC? Kita gunakan data contoh saat merancang.
+
+### AI010 - Cyntia/Fasilitator - Desire
+
+Saya bisa mencoba, asalkan ada satu orang yang bertanggung jawab dan langkahnya jelas.
+
+### U011 - Mahasiswa - Action
+
+Apakah Anda bersedia menjadi pengambil keputusan, lalu menunjuk satu staf sebagai PIC input dan pengecekan dua kali sehari? Jika belum sanggup, pilot bisa ditunda.
+
+### AI011 - Cyntia/Fasilitator - Action
+
+Saya bisa menunjuk Rani sebagai PIC setelah memastikan kesediaannya. Saya akan mengecek hasil setiap sore.
+
+### U012 - Mahasiswa - Ukuran sukses
+
+Kita ukur jumlah pesanan yang tercatat, pesanan yang perlu ditelusuri ulang, dan waktu pengecekan. Tidak perlu menjanjikan target angka sebelum ada baseline.
+
+### AI012 - Cyntia/Fasilitator - Ukuran sukses
+
+Setuju. Kita bisa mencatat baseline pada hari pertama, lalu membandingkan pada akhir minggu.
+
+### U013 - Mahasiswa - Risiko
+
+Akses tabel dibatasi untuk staf terkait, tidak memasukkan data sensitif dalam simulasi, dan semua perubahan status dicatat. Bila membebani, kita hentikan atau sederhanakan.
+
+### AI013 - Cyntia/Fasilitator - Risiko
+
+Baik. Saya ingin contoh tabel dan panduan satu halaman sebelum memulai.
+
+### U014 - Mahasiswa - Uji ulang
+
+Kendala baru: Rani mendadak harus membantu pengiriman selama dua hari. Saya usulkan pilot dipersempit menjadi sepuluh pesanan contoh dan Anda menunjuk PIC cadangan hanya bila bersedia. Bagaimana?
+
+### AI014 - Cyntia/Fasilitator - Uji ulang
+
+Saya tidak bisa menjamin PIC cadangan. Lebih aman menunda dua hari dan menguji sepuluh pesanan dulu.
+
+### U015 - Mahasiswa - Adaptasi
+
+Saya terima penundaan itu. Kita ubah persiapan ke 16 Oktober, uji contoh 17–21 Oktober, dan evaluasi 22 Oktober. Tidak ada kewajiban melanjutkan jika PIC belum tersedia.
+
+### AI015 - Cyntia/Fasilitator - Adaptasi
+
+Jadwal revisi itu lebih realistis. Saya bersedia meninjau contoh tabel tanggal 16, tetapi keputusan menjalankan pilot tetap setelah saya bicara dengan tim.
+
+### U016 - Mahasiswa - Refleksi dan konfirmasi
+
+Saya menyimpulkan masalah utama adalah pesanan tercecer, bukan kebutuhan AI otomatis. Kesepakatan saat ini hanya meninjau rancangan, bukan persetujuan implementasi. Saya perlu mengurangi asumsi, memeriksa kapasitas PIC, dan menghormati penundaan. Apakah ringkasan ini tepat?
+
+### AI016 - Cyntia/Fasilitator - Refleksi dan konfirmasi
+
+Tepat. Saya belum menyetujui implementasi, tetapi bersedia meninjau rancangan pada 16 Oktober. Saya merasa didengar karena beban tim dan risiko kesalahan tidak diabaikan.
 
 # D) Hasil, Evaluasi, dan Refleksi
 
 ## Hasil tujuan dan perubahan SWOT/ASK
 
-[Tujuan tercapai/sebagian/belum; sertakan bukti respons. Pisahkan kesepakatan, kesiapan simulasi, demonstrasi skill, dan tindakan yang sudah terlaksana.]
+**Hasil simulasi: sebagian tercapai.** Cyntia bersedia meninjau rancangan pada 16 Oktober, tetapi belum menyetujui implementasi pilot. Tidak ada tindakan dunia nyata yang dibuktikan.
 
 | Unsur | Awal | Akhir | Bukti/ID | Jenis bukti dan batas |
 |---|---|---|---|---|
-| Persepsi/kesimpulan SWOT | [Isi] | [Isi] | [Isi] | [Isi] |
-| Attitude | [Isi] | [Isi] | [Isi] | [Isi] |
-| Knowledge | [Isi] | [Isi] | [Isi] | [Isi] |
-| Skill/kesiapan | [Isi] | [Isi] | [Isi] | [Skill nyata tidak meningkat hanya karena menyatakan setuju] |
+| Persepsi/kesimpulan SWOT | Inovasi dianggap menarik; kendala pelaksanaan belum diprioritaskan | Risiko pesanan tercecer dipilih sebagai fokus; kapasitas PIC tetap ancaman | AI003–AI006, AI014–AI016 | Respons tokoh fiktif |
+| Attitude | Antusias, perhatian tersebar | Lebih berhati-hati, memilih pilot kecil tanpa komitmen prematur | AI003, AI009, AI016 | Perubahan sikap dalam simulasi |
+| Knowledge | Mengetahui gambaran besar | Memahami alternatif tabel, FAQ, risiko AI, indikator dan baseline | AI008, AI012–AI013 | Pemahaman yang diucapkan, belum diuji terpisah |
+| Skill/kesiapan | Tindak lanjut belum konsisten | Siap meninjau contoh, PIC belum dikonfirmasi | AI011, AI015–AI016 | Kesiapan yang dinyatakan; peningkatan skill belum diuji |
 
 ## Evaluasi stimulus-respons dan diagnosis profil
 
 | Episode/ID | Estimasi status dan bukti | Stimulus mahasiswa | Respons target | Perubahan ASK/SWOT | Adaptasi |
 |---|---|---|---|---|---|
-| [Isi] | [Isi] | [Kutipan] | [Kutipan] | [Interpretasi dan batas] | [Perubahan berikutnya] |
+| U003/AI003 | Attention terbagi | “Bagian mana ... paling menguras waktu?” | “menjawab pertanyaan sama” | A: bersedia mengungkap beban | Telusuri akibat |
+| U005/AI005 | Interest meningkat | “mana yang paling mendesak” | “Pesanan tercecer” | K: prioritas jelas | Gali alur saat ini |
+| U008/AI008 | Desire bersyarat | “AI ... baru dipertimbangkan” | “khawatir ... stok salah” | K: risiko akurasi terungkap | Jelaskan kontrol manusia |
+| U009/AI009 | Kepercayaan meningkat secara kualitatif | “Saya menghargai cara Anda menjaga pelanggan” | “tidak langsung menjual aplikasi” | A: lebih terbuka; K/S tetap perlu dukungan | Batasi lingkup |
+| U014–U015/AI014–AI015 | Action belum final | Usulan PIC cadangan lalu penundaan | “lebih aman menunda dua hari” | S: kendala kapasitas masih ada | Terima penundaan |
 
-[Bandingkan dugaan awal dengan informasi profil tokoh setelah simulasi. Preferensi tokoh adalah parameter fiktif, bukan diagnosis mahasiswa. Jika dugaan awal tidak tercatat, nyatakan keterbatasannya.]
+Dugaan awal bahwa customer sibuk dan membutuhkan solusi sederhana sesuai sebagian respons. Namun profil paket juga menunjukkan preferensi interaktif dan kebutuhan pengakuan kontribusi. Label ENFP dalam paket adalah parameter tokoh fiktif, bukan hasil diagnosis atau alasan tunggal memilih strategi.
 
 ## Pengaruh pesan personal dan kualitas relasi
 
 | Episode/ID | Pesan personal/bantuan konkret | Respons teramati | Rasa aman, kepercayaan, keterbukaan | Dampak ASK/SWOT dan batas inferensi |
 |---|---|---|---|---|
-| [Isi] | [Kutipan/tindakan] | [Kutipan] | [Awal dan akhir; bukti] | [Isi] |
+| U003/AI003 | Mengakui minggu yang padat dan bertanya terbuka | Cyntia menjelaskan beban pesan | Awal: sedang; keterbukaan mulai tampak | Attention meningkat, belum berarti setuju |
+| U009/AI009 | Mengakui upaya menjaga pelanggan dan membatasi beban pilot | “tidak langsung menjual aplikasi” | Akhir episode: lebih tinggi secara kualitatif | Membuka detail; tidak menyelesaikan kendala PIC |
+| U015/AI015 | Menghormati penundaan dan mengubah jadwal | “lebih realistis” | Kepercayaan terjaga, pilihan dihormati | Bersedia meninjau rancangan saja |
 
-[Bedakan ungkapan hangat, bantuan konkret, konsistensi, dan penghormatan pilihan. Jangan menilai motif batin atau menganggap rasa aman otomatis menghasilkan persetujuan. Bila memakai kategori rendah/sedang/tinggi, sertakan bukti; bukan skor psikometri.]
+Kategori relasional adalah interpretasi perilaku dalam dialog, bukan pengukuran psikometri atau bukti ketulusan batin.
 
 ## Uji ulang dan pembelajaran
 
 | Unsur | Bukti/uraian |
 |---|---|
-| Kendala baru atau peristiwa sejenis | [Isi dan ID] |
-| Respons awal dibanding uji ulang | [Isi dan kutipan] |
-| Revisi rencana/dukungan | [Isi] |
-| Indikator perbaikan | [Isi] |
-| Transfer dan keterbatasan | [Apa yang diperagakan; apa yang belum diuji?] |
-
-[Jika uji ulang belum dilakukan, nyatakan belum teramati. Jangan menyusun ulang kejadian yang tidak ada.]
+| Kendala baru atau peristiwa sejenis | AI014: PIC harus membantu pengiriman selama dua hari |
+| Respons awal dibanding uji ulang | U011 mengusulkan PIC utama; U014 mengusulkan PIC cadangan; AI014 menolak kepastian cadangan |
+| Revisi rencana/dukungan | U015: jadwal mundur, lingkup sepuluh pesanan contoh, implementasi menunggu keputusan tim |
+| Indikator perbaikan | AI015 menyatakan jadwal revisi realistis; AI016 bersedia meninjau rancangan |
+| Transfer dan keterbatasan | Adaptasi terhadap hambatan dipraktikkan dalam teks; tidak ada bukti implementasi atau performa operasional |
 
 ## Penilaian enam dimensi
 
-| Dimensi | Skor 1-4/BT | ID dan kutipan bukti | Alasan sesuai indikator |
-|---|---|---|---|
-| Tujuan dan konteks | BT | [Isi] | [Belum dinilai] |
-| Persepsi dan validasi profil/status | BT | [Isi] | [Belum dinilai] |
-| Pemilihan dan urutan repertoar | BT | [Isi] | [Belum dinilai] |
-| Eksekusi jelas, peduli dan konsisten | BT | [Isi] | [Belum dinilai] |
-| Evaluasi dan adaptasi | BT | [Isi] | [Belum dinilai] |
-| Refleksi dan lesson learned | BT | [Isi] | [Belum dinilai] |
+Skor di bawah adalah **contoh penilaian atas dialog** dan tetap memerlukan moderasi dosen.
 
-**Nilai sesi:** [Belum dihitung]. BT berarti belum dapat ditetapkan, bukan nol. Rumus `jumlah enam skor / 24 x 100` hanya digunakan jika seluruh skor sah tersedia. Skor harus mengikuti indikator resmi, bukan kesepakatan akhir saja. Bedakan evaluasi diri, usulan AI, dan nilai resmi dosen.
+| Dimensi | Skor contoh 1–4 | ID dan kutipan bukti | Alasan sesuai indikator |
+|---|---:|---|---|
+| Tujuan dan konteks | 4 | U002 “mendengar masalah ... sebelum menyebut AI” | Tujuan, keterbatasan dan konteks jelas |
+| Persepsi dan validasi profil/status | 3 | U005 “mana yang paling mendesak” | Memvalidasi prioritas, belum memperoleh volume transaksi |
+| Pemilihan dan urutan repertoar | 4 | U007–U010 | Mendahulukan diagnosis, lalu opsi TI sederhana, baru AI |
+| Eksekusi jelas, peduli dan konsisten | 4 | U009, U013, U015 | Peduli beban, transparan risiko, menghormati penundaan |
+| Evaluasi dan adaptasi | 3 | U014–U015 | Mengubah jadwal dan lingkup; belum menguji hasil operasional |
+| Refleksi dan lesson learned | 3 | U016 | Mengakui asumsi dan batas komitmen; refleksi belum divalidasi di dunia nyata |
+
+**Nilai contoh:** (4 + 3 + 4 + 4 + 3 + 3) / 24 × 100 = **87,50/100**. **Nilai sesi resmi: BT (belum dapat ditetapkan)** karena moderasi dosen belum dilakukan. Nilai akhir UTS belum dihitung.
 
 ## Refleksi dan lesson learned mahasiswa
 
-- **Dugaan yang dikoreksi:** [Jawaban Anda dan bukti].
-- **Stimulus efektif/tidak efektif:** [Jawaban Anda dan respons terkait].
-- **Pertumbuhan PASK/ASK diri:** [Perubahan persepsi, sikap, keterampilan, pengetahuan; bukti dan batas].
-- **Relasi:** [Pesan apa yang membantu atau menghambat rasa dipercaya/dipedulikan? Apa buktinya?].
-- **Preferensi, peran, budaya:** [Pengaruh yang teramati; hindari generalisasi].
-- **Pelajaran untuk situasi berikutnya:** [Isi].
+- **Dugaan yang dikoreksi:** Antusiasme pada inovasi tidak sama dengan kesiapan membeli atau mengimplementasikan AI (AI007–AI008, AI016).
+- **Stimulus efektif/tidak efektif:** Pertanyaan prioritas U005 dan pengakuan beban U009 memperluas informasi; usulan PIC cadangan U014 tidak cocok dengan kapasitas aktual tokoh.
+- **Pertumbuhan PASK/ASK diri:** Dalam percakapan, komunikator beralih dari ide teknologi ke diagnosis masalah dan penetapan batas; peningkatan kemampuan implementasi belum dibuktikan.
+- **Relasi:** Pengakuan spesifik dan dukungan konkret mendorong keterbukaan (AI009). Penghormatan pada keputusan menunda mempertahankan kepercayaan (AI015–AI016).
+- **Preferensi, peran, budaya:** Cyntia menghargai partisipasi dan interaksi; ini tampak pada respons terhadap pilihan dan rencana bersama, bukan alasan untuk menyimpulkan tipe psikologis.
+- **Pelajaran untuk situasi berikutnya:** Validasi volume masalah, penanggung jawab, izin akses, dan ukuran keberhasilan sebelum memilih otomatisasi.
 
 ## Tindak lanjut dan batas bukti
 
-| Langkah | Penanggung jawab | Waktu | Dukungan | Indikator/cara evaluasi | Status rencana/pelaksanaan |
+| Langkah | Penanggung jawab | Waktu ilustratif | Dukungan | Indikator/cara evaluasi | Status |
 |---|---|---|---|---|---|
-| [Isi] | [Isi] | [Isi] | [Isi] | [Isi] | [Isi] |
+| Membuat rancangan tabel tanpa data pribadi asli | Mahasiswa | 16 Oktober 2026 | Contoh kolom dan panduan satu halaman | Rancangan dapat ditinjau | Rencana |
+| Memeriksa kesediaan PIC dan kelayakan pilot | Cyntia bersama tim | 16 Oktober 2026 | Diskusi internal | PIC menyatakan bersedia atau pilot ditunda | Belum dikonfirmasi |
+| Uji sepuluh pesanan contoh bila disetujui | Tim customer | 17–21 Oktober 2026 | Tabel dan prosedur pengecekan | Kelengkapan pencatatan dan waktu pemeriksaan | Bersyarat, belum dilaksanakan |
+| Tinjau hasil dan keputusan lanjut/tidak | Cyntia | 22 Oktober 2026 | Ringkasan indikator | Keputusan eksplisit | Rencana bersyarat |
 
-[Batas bukti: kelengkapan transkrip, modalitas, perilaku tokoh simulasi, klaim belum terverifikasi, dan hasil di luar sesi. Pastikan hari, tanggal, dan waktu konsisten. Pengiriman portal dilakukan mahasiswa.]
+**Batas bukti:** Dialog sesi dicantumkan pada bagian C. Tidak ada klaim pengiriman ke portal atau pelaksanaan pilot.
 
-**Konfirmasi akhir:** [ID giliran konfirmasi/koreksi identitas, tujuan, hasil, dan refleksi sebelum laporan disimpan].
+**Konfirmasi akhir:** U016/AI016 mencatat konfirmasi atas ringkasan sesi; persetujuan implementasi belum diberikan.
